@@ -1,0 +1,236 @@
+body{
+margin: 0;
+}
+
+#mainheader, .nav-flot, .ArrowBack, .Tittle, .Engranaje, nav, #menu, div,h1, .content-holder, .Content, .texto-centro-arriba, article, p, .texto-dividido,.texto-centro-abajo{
+display: flex;
+}
+
+#mainheader{
+    justify-content:space-between;
+    text-align: center;
+    align-items: center;
+    flex-direction: row;
+    height: 100px;
+    background-color: gold;
+    box-shadow: 0px 5px 5px gainsboro;
+}
+
+/*----------------------------------------------------------------*/
+/*--------------------------HEADER-------------------------------*/
+
+/*Seccion de personalizacion del elemento ArrowBack*/
+
+#mainheader .ArrowBack{
+    width: 15%;
+    height: 65px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#mainheader .ArrowBack div{
+    background-color: #D8B53C;
+    width: 69%;
+    height: 42px;
+    border-radius: 3px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#mainheader .ArrowBack div i{
+    color: white;
+    font-size: 15px;
+}
+
+#mainheader .ArrowBack div p{
+    color: white;
+    font-size: 17.5px;
+    font-family:  Arial;
+}
+
+
+/*Seccion de personalizacion del elemento tittle*/
+
+#mainheader .Tittle{
+    justify-content: center; align-items: center;
+    width: 59%;
+    height:  65px;
+}
+
+#mainheader .Tittle h1{
+    color: #806825;
+    font-family: arial;
+    font-size: 36px;
+}
+  
+
+/*Seccion de personalizacion del elemento Engranaje*/
+
+#mainheader .Engranaje {
+    justify-content: center; align-items: center;
+    justify-content: space-evenly;
+    width: 10%;
+    height: 65px;
+}
+
+#mainheader .Engranaje div{
+    background-color: #D8B53C;
+    justify-content: center; align-items: center;
+    width: 59%;
+    height: 42px;
+    border-radius: 3px;
+}
+
+#mainheader .Engranaje div i{
+    color: white;
+}
+
+/*----------------------------------------------------------------*/
+
+
+
+/*-----------------------------------------------------------------*/
+/*--------------------------CONTENT-------------------------------*/
+
+/*Seccion de personalizacion del elemento Content*/
+
+.Content{
+    justify-content: center;
+}
+
+.content-holder{
+    justify-content: center;
+    height: calc(100vh - 100px);
+    width: 100%;
+    max-width: 1500px;
+    justify-content:start;
+    flex-direction: column;
+}
+
+/*Seccion de personalizacion del elemento Texto-centro-arriba*/
+
+.texto-centro-arriba{
+    justify-content: center;
+}
+
+.texto-centro-arriba article{
+    padding-top: 8px;
+    flex-direction: column;
+    align-items: center;
+    width: 98%;
+    height: 200px; 
+}
+
+.texto-centro-arriba p{
+    font-family: arial;
+    text-align:left;
+    font-size: 18px;
+    width: 100%;
+}
+
+/*Seccion de personalizacion del elemento texto-dividido*/
+
+.texto-dividido{
+    justify-content: center;
+}
+
+.texto-dividido div{
+    width: 98%;
+    height: 320px;
+    justify-content: center; align-items: center;
+    flex-direction: row;
+}
+
+.texto-dividido .imagen{
+    width: 40%;
+    height: 320px;
+}
+
+.texto-dividido .imagen img{
+    width: 91%; height: auto;
+    max-width: 320px;
+}
+
+.texto-dividido div article {
+    display: flex; flex-direction: column;
+    width: 60%;
+    height: 320px;
+}
+
+.texto-dividido div article p{
+    font-family: arial;
+    text-align:left;
+    font-size: 18px;
+}
+
+/*Seccion de personalizacion del elemento texto-centro-abajo*/
+
+.texto-centro-abajo{
+    justify-content: center;
+}
+
+.texto-centro-abajo article{
+    display: flex; flex-direction: column;
+    width: 98%;
+    height: 750px;
+}
+
+.texto-centro-abajo article p{
+    font-family: arial;
+    text-align:left;
+    font-size: 18px;
+}
+
+
+/*---------------------------------------------------------------*/
+
+
+
+
+/*-----------------------------------------------------------------*/
+/*--------------------------NAV-FLOT-------------------------------*/
+
+/*Seccion de personalizacion del elemento nav-flot*/
+
+
+.nav-flot nav{
+    /*comandos para mantener una posicion fija en caso de scroll*/
+                            display: flex;
+                            bottom: 0;
+                            right: 0;
+                            z-index: 100;
+                            position: fixed;
+    /*--------------------------------------------------------*/
+    display: flex;
+    background-color: gold;
+    flex-direction: row;
+    width: 100%;
+    height: 100px;
+    justify-content: center; align-items: center;
+}
+
+.nav-flot nav div{
+    display: flex;flex-direction: column;
+    border-right: 0.5px solid #D8B53C;
+    width: 25%;
+    height: 100px;
+    justify-content: center; align-items: center;
+    justify-content: space-evenly;
+} 
+
+.nav-flot nav div i{
+    font-size: 25px;
+    color: white;
+    background: none;
+}
+
+.nav-flot nav div a{
+    text-decoration:none;
+    font-weight:normal;
+    font-family: arial;
+    font-size: 18px;
+    color: #806825;
+}
+
+
+/*---------------------------------------------------------------*/
